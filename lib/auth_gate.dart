@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart' hide EmailAuthProvider;
 import 'package:firebase_ui_auth/firebase_ui_auth.dart';
-import 'package:firebase_ui_oauth_google/firebase_ui_oauth_google.dart';
+import 'package:firebase_ui_oauth_google/firebase_ui_oauth_google.dart'; // new
 import 'package:flutter/material.dart';
 
 import 'home.dart';
@@ -17,7 +17,7 @@ class AuthGate extends StatelessWidget {
          return SignInScreen(
            providers: [
              EmailAuthProvider(),
-             GoogleProvider(clientId: '415023502396-3tdk9klpajn8gkp73bpsnn0q5ub1iie2.apps.googleusercontent.com'),
+             GoogleProvider(clientId: "415023502396-3tdk9klpajn8gkp73bpsnn0q5ub1iie2.apps.googleusercontent.com"),  // new
            ],
            headerBuilder: (context, constraints, shrinkOffset) {
              return Padding(
@@ -56,6 +56,7 @@ class AuthGate extends StatelessWidget {
            },
          );
        }
+
        return const HomeScreen();
      },
    );
