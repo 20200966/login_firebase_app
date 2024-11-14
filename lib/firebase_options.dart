@@ -39,12 +39,12 @@ class DefaultFirebaseOptions {
  }
 
  static const FirebaseOptions web = FirebaseOptions(
-   apiKey: 'AIzaSyCqFjCV_9CZmYeIvcK9FVy4drmKUlSaIWY',
-   appId: '1:963656261848:web:7219f7fca5fc70afb237ad',
-   messagingSenderId: '963656261848',
-   projectId: 'flutterfire-ui-codelab',
-   authDomain: 'flutterfire-ui-codelab.firebaseapp.com',
-   storageBucket: 'flutterfire-ui-codelab.appspot.com',
+   apiKey: 'AIzaSyAKWsOPeHGYSz9aH2UcLDM6g6bdStEyPyE',
+   appId: '1:415023502396:web:cba652c63ea35bc7449f39',
+   messagingSenderId: '415023502396',
+   projectId: 'flutterfire-ui-codelab-eef0b',
+   authDomain: 'flutterfire-ui-codelab-eef0b.firebaseapp.com',
+   storageBucket: 'flutterfire-ui-codelab-eef0b.firebasestorage.app',
    measurementId: 'G-DGF0CP099H',
  );
 
